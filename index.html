@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>bulb</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-md nav justify-content-center">
+            <a class="navbar-brand" href="#">Blub</a>
+        </div>
+      </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 img">
+                <div class="divImgOff">
+                    <img id="off" class="off" src="images/off.png" alt="">
+                </div>
+
+                <div id="on" class="divImgOn invisible">
+                    <img class="on" src="images/on.png">
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+            <div class="buttons">
+                <button class="btn btn-lg btn-outline-dark" onclick="on()">
+                    Turn on
+                </button>
+                <button class="btn btn-lg btn-outline-dark" onclick="off()">
+                    Turn off
+                </button>
+            </div>
+            
+        
+        <!-- <div class="row buttons">
+            <div class="col-sm-6 btnon">
+                <button class="btn btn-lg btn-outline-dark" onclick="on()">
+                    Turn on
+                </button>
+            </div>
+            <div class="col-sm-6 btnoff">
+                 <button class="btn btn-lg btn-outline-dark" onclick="on()">
+                    Turn on
+                </button>
+            </div>
+        </div> -->
+    </div>
+    <script src="https://kit.fontawesome.com/803a1d1167.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
